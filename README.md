@@ -56,7 +56,7 @@ fun header 来自from https://github.com/scwang90/SmartRefreshLayout
 #### 2.本库的主旨就是一切功能皆由header或者footer实现，所以你可以自定义header和footer（实现任何你想的到的功能，自动触发加载更多、固定头部、自动触发刷新（不弹出header）、二级刷新等），header和footer拽出方式默认8种(PLACEHOLDER、FOLLOW、PLACEHOLDER_FOLLOW、CENTER、PLACEHOLDER_CENTER、FOLLOW_CENTER、CENTER_FOLLOW、FOLLOW_PLACEHOLDER)，动画可以onPullChange()完全自主设置。
 ps:本库没有做解耦处理（那样会增加.class，大小也会增加），目的是使库足够小，而且本库功能目的明确，不必做无用功。
 
-## gradle  [![Stable Version](https://img.shields.io/badge/Stable%20Version-2.2.6-brightgreen.svg)](https://github.com/genius158/PullRefreshLayout)  ↘
+## gradle  [![Stable Version](https://img.shields.io/badge/Stable%20Version-3.0.1-brightgreen.svg)](https://github.com/genius158/PullRefreshLayout)  ↘
 compile 'com.yan:pullrefreshlayout:(↖)'
 <br/>
 ## 2.说明  

@@ -1,6 +1,6 @@
 # PullRefreshLayout(A mall, bouncy, refresh, loadMore lib)
-[![Stable Version](https://img.shields.io/badge/Stable%20Version-2.2.6-brightgreen.svg)](https://github.com/genius158/PullRefreshLayout)
-[![Latest Version](https://img.shields.io/badge/Latest%20Version-2.2.7-FFD54F.svg)](https://bintray.com/yan157/maven/pullrefreshlayout/_latestVersion)
+[![Stable Version](https://img.shields.io/badge/Stable%20Version-3.0.0-brightgreen.svg)](https://github.com/genius158/PullRefreshLayout)
+[![Latest Version](https://img.shields.io/badge/Latest%20Version-3.0.1-FFD54F.svg)](https://bintray.com/yan157/maven/pullrefreshlayout/_latestVersion)
 [![MinSdk](https://img.shields.io/badge/MinSdk-11%2B-green.svg)](https://android-arsenal.com/api?level=11) 
 [![Methods](https://img.shields.io/badge/Methods%20and%20size-411%20%7C%2037%20KB-e91e63.svg)](http://www.methodscount.com/?lib=com.yan%3Apullrefreshlayout%3A2.1.0)
 ### [DEMO DOWNLOAD(Install the demo and try, maybe PullRefreshLayout is that what you want)](https://github.com/genius158/PullRefreshLayout/raw/master/demo.apk)
@@ -60,7 +60,7 @@ fun header from https://github.com/scwang90/SmartRefreshLayout
 ### 2.You can custom header and footer to realize various functions（Auto trigger loading、Fixed header、Secondary refresh etc.），the ways header and footer dragging out (PLACEHOLDER、FOLLOW、PLACEHOLDER_FOLLOW、CENTER、PLACEHOLDER_CENTER、FOLLOW_CENTER、CENTER_FOLLOW、FOLLOW_PLACEHOLDER)。
 ps:This design is to make the lib small enough
 
-## gradle  [![Stable Version](https://img.shields.io/badge/Stable%20Version-2.2.5-brightgreen.svg)](https://github.com/genius158/PullRefreshLayout)  ↘
+## gradle  [![Stable Version](https://img.shields.io/badge/Stable%20Version-3.0.1-brightgreen.svg)](https://github.com/genius158/PullRefreshLayout)  ↘
 compile 'com.yan:pullrefreshlayout:(↖)'
 <br/>
  
