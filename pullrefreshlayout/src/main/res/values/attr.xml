@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PullRefreshLayout">
+        <attr name="prl_refreshEnable" format="boolean" />
+        <attr name="prl_loadMoreEnable" format="boolean" />
+        <attr name="prl_twinkEnable" format="boolean" />
+        <attr name="prl_autoLoadingEnable" format="boolean" />
+        <attr name="prl_headerFront" format="boolean" />
+        <attr name="prl_footerFront" format="boolean" />
+
+        <attr name="prl_refreshTriggerDistance" format="dimension" />
+        <attr name="prl_loadTriggerDistance" format="dimension" />
+        <attr name="prl_pullDownMaxDistance" format="dimension" />
+        <attr name="prl_pullUpMaxDistance" format="dimension" />
+        <attr name="prl_topOverScrollMaxTriggerOffset" format="dimension" />
+        <attr name="prl_downOverScrollMaxTriggerOffset" format="dimension" />
+
+        <attr name="prl_resetAnimationDuring" format="integer" />
+        <attr name="prl_refreshAnimationDuring" format="integer" />
+        <attr name="prl_overScrollMinDuring" format="integer" />
+
+        <attr name="prl_dragDampingRatio" format="float" />
+        <attr name="prl_overScrollDampingRatio" format="float" />
+        <attr name="prl_overScrollAdjustValue" format="float" />
+
+        <attr name="prl_targetId" format="reference" />
+
+        <attr name="prl_headerViewId" format="reference" />
+        <attr name="prl_footerViewId" format="reference" />
+
+        <attr name="prl_headerShowGravity" format="enum">
+            <enum name="follow" value="0" />
+            <enum name="follow_placeholder" value="1" />
+            <enum name="follow_center" value="2" />
+            <enum name="placeholder" value="3" />
+            <enum name="placeholder_follow" value="4" />
+            <enum name="placeholder_center" value="5" />
+            <enum name="center" value="6" />
+            <enum name="center_follow" value="7" />
+        </attr>
+
+        <attr name="prl_footerShowGravity" format="enum">
+            <enum name="follow" value="0" />
+            <enum name="follow_placeholder" value="1" />
+            <enum name="follow_center" value="2" />
+            <enum name="placeholder" value="3" />
+            <enum name="placeholder_follow" value="4" />
+            <enum name="placeholder_center" value="5" />
+            <enum name="center" value="6" />
+            <enum name="center_follow" value="7" />
+        </attr>
+    </declare-styleable>
+
+</resources>

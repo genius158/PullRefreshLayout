@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yan.pullrefreshlayout.PullRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/refreshLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:prl_autoLoadingEnable="false"
+    app:prl_downOverScrollMaxTriggerOffset="65dp"
+    app:prl_dragDampingRatio="0.6"
+    app:prl_footerShowGravity="follow"
+    app:prl_headerShowGravity="placeholder"
+    app:prl_loadMoreEnable="false"
+    app:prl_loadTriggerDistance="70dp"
+    app:prl_overScrollAdjustValue="1"
+    app:prl_overScrollDampingRatio="0.35"
+    app:prl_pullDownMaxDistance="150dp"
+    app:prl_pullUpMaxDistance="250dp"
+    app:prl_refreshAnimationDuring="180"
+    app:prl_refreshEnable="true"
+    app:prl_refreshTriggerDistance="90dp"
+    app:prl_resetAnimationDuring="400"
+    app:prl_targetId="@+id/recyclerView"
+    app:prl_topOverScrollMaxTriggerOffset="65dp"
+    app:prl_twinkEnable="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#f1f1f1"
+            android:overScrollMode="never" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:gravity="center"
+                android:text="header"
+                android:textSize="18sp" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/no_data"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:text="no data"
+            android:textColor="#212121"
+            android:textSize="20sp"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</com.yan.pullrefreshlayout.PullRefreshLayout>

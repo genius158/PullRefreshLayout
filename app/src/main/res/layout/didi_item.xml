@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yan.refreshloadlayouttest.widget.PercentImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/click"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:src="@drawable/zfb_bottom"
+    app:ratio="1.3846" />
